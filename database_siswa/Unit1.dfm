@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 159
-  Top = 181
+  Left = 278
+  Top = 194
   Width = 928
   Height = 480
   Caption = 'Form1'
@@ -135,6 +135,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'LAPORAN'
     TabOrder = 10
+    OnClick = Button6Click
   end
   object DataSource1: TDataSource
     DataSet = ZQuery1
@@ -173,7 +174,7 @@ object Form1: TForm1
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45105.744973298600000000
-    ReportOptions.LastChange = 45105.748958912040000000
+    ReportOptions.LastChange = 45105.758549803240000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
